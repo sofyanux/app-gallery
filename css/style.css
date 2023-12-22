@@ -87,6 +87,7 @@ header#hero p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 48px;
 }
 
 #main {
