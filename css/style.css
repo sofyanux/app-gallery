@@ -22,6 +22,12 @@ nav {
   color: #fff;
   text-align: center;
   padding: 10px;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
@@ -36,16 +42,11 @@ nav a {
   padding: 20px;
 }
 
-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-header h1 {
+div h1 {
   color: #0066cc;
 }
 
-header#hero {
+div#hero {
   position: relative;
   background-image: url("/img/banner.png");
   background-size: cover;
@@ -53,10 +54,9 @@ header#hero {
   color: #fff;
   text-align: center;
   padding: 100px 20px;
-  border-radius: 8px;
 }
 
-header#hero::before {
+div#hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -64,30 +64,30 @@ header#hero::before {
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  border-radius: 8px;
 }
 
-header#hero .hero-content {
+div#hero .hero-content {
   position: relative;
   z-index: 1;
   max-width: 800px;
   margin: 0 auto;
 }
 
-header#hero h1 {
+div#hero h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
 }
 
-header#hero p {
+div#hero p {
   font-size: 1.2em;
 }
 
-.content {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 48px;
+  flex-direction: row-reverse;
 }
 
 #main {
@@ -244,8 +244,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .content {
-    flex-direction: column;
+  nav {
+    padding: 10px;
+  }
+  .container {
+    flex-direction: column-reverse;
   }
 
   #main {

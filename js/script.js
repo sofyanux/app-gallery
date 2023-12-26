@@ -24,15 +24,24 @@ const imageSources = [
 
 const articlesData = [
   {
-    title: "Article Title 1",
-    content: "Article content goes here...",
+    title: "Evolusi Pengembangan Web: Dari HTML ke Generasi Terkini",
+    content:
+      "Artikel ini menjelajahi perkembangan teknologi web dari awalnya menggunakan HTML hingga era baru dengan framework dan teknologi generasi terkini seperti React dan Vue. Pembaca akan mendapatkan pemahaman mendalam tentang bagaimana web telah berkembang seiring waktu dan dampaknya terhadap pengalaman pengguna.",
     image: "/img/3.png",
     date: "January 1, 2023",
   },
   {
-    title: "Article Title 2",
-    content: "Another article content...",
+    title: "Keamanan Web 101: Menavigasi Ancaman Cyber di Era Digital",
+    content:
+      "Artikel ini membahas tantangan keamanan yang dihadapi oleh situs web dan pengguna di era digital saat ini. Dari serangan phishing hingga upaya pencegahan melalui protokol HTTPS, pembaca akan mendapatkan wawasan tentang langkah-langkah kunci yang dapat diambil untuk melindungi data dan privasi mereka secara online",
     image: "/img/4.png",
+    date: "February 15, 2023",
+  },
+  {
+    title: "Tren Desain Web Terkini: Menyelusuri Estetika dan Fungsionalitas",
+    content:
+      "Dalam artikel ini, pembaca akan dijejali dengan tren desain web terkini, fokus pada estetika modern dan peningkatan fungsionalitas. Dari desain responsif hingga animasi halaman, artikel ini memberikan wawasan tentang bagaimana desainer web menggabungkan kreativitas dan kepraktisan untuk menciptakan pengalaman pengguna yang mengesankan.",
+    image: "/img/5.png",
     date: "February 15, 2023",
   },
 ];

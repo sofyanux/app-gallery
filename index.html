@@ -9,15 +9,17 @@
 </head>
 
 <body>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#main">Gallery</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="container">
-        <header id="hero">
+    <header>
+        <nav>
+            <h3>MyGallery</h3>
+            <div>
+                <a href="#">Home</a>
+                <a href="#main">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div id="hero">
             <div class="hero-content">
                 <h1>MyGallery</h1>
                 <p>
@@ -25,56 +27,54 @@
                     terbaik.
                 </p>
             </div>
-        </header>
-
-        <div class="content">
-            <section id="main">
-                <div id="article">
-                    <h2>Latest Articles</h2>
-                    <div id="articleContainer" class="articleContainer">
-                        <section id="articleData"></section>
-                    </div>
-                </div>
-                <div class="gallery">
-                    <h1>Gallery</h1>
-                    <div class="slider-container">
-                        <button id="prevBtn">&lt; Prev</button>
-                        <div class="slider" id="imageSlider"></div>
-                        <button id="nextBtn">Next &gt;</button>
-                    </div>
-                </div>
-            </section>
-
-            <aside id="about">
-                <div class="profile">
-                    <img src="img/ava.png" alt="Profile Picture" />
-                    <div class="profile-content">
-                        <h1>About Me</h1>
-                        <h4>Sofyan Sauri</h4>
-                        <p>
-                            Hanya seseorang yang menyukai desain grafis dan menunjukkan
-                            sedikit karyanya kepada orang lain.
-                        </p>
-                    </div>
-                    <div class="contact-info">
-                        <h1 id="contact">Contact</h1>
-                        <div class="contact-item">
-                            <h4>Instagram</h4>
-                            <a href="http://www.instagram.com/akang.sofyan">@akang.sofyan</a>
-                        </div>
-                        <div class="contact-item">
-                            <h4>WhatsApp</h4>
-                            <a href="https://wa.me/6285157002610">+62 851-5700-2610</a>
-                        </div>
-                        <div class="contact-item">
-                            <h4>E-mail</h4>
-                            <a href="mailto:cs.akangsofyan@gmail.com">cs.akangsofyan@gmail.com</a>
-                        </div>
-                    </div>
-                </div>
-            </aside>
         </div>
-    </div>
+    </header>
+    <main class="container">
+        <aside id="about">
+            <div class="profile">
+                <img src="img/ava.png" alt="Profile Picture" />
+                <div class="profile-content">
+                    <h1>About Me</h1>
+                    <h4>Sofyan Sauri</h4>
+                    <p>
+                        Hanya seseorang yang menyukai desain grafis dan menunjukkan
+                        sedikit karyanya kepada orang lain.
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <h1 id="contact">Contact</h1>
+                    <div class="contact-item">
+                        <h4>Instagram</h4>
+                        <a href="http://www.instagram.com/akang.sofyan">@akang.sofyan</a>
+                    </div>
+                    <div class="contact-item">
+                        <h4>WhatsApp</h4>
+                        <a href="https://wa.me/6285157002610">+62 851-5700-2610</a>
+                    </div>
+                    <div class="contact-item">
+                        <h4>E-mail</h4>
+                        <a href="mailto:cs.akangsofyan@gmail.com">cs.akangsofyan@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <article id="main">
+            <div id="article">
+                <h2>Latest Articles</h2>
+                <div id="articleContainer" class="articleContainer">
+                    <section id="articleData"></section>
+                </div>
+            </div>
+            <div class="gallery">
+                <h1>Gallery</h1>
+                <div class="slider-container">
+                    <button id="prevBtn">&lt; Prev</button>
+                    <div class="slider" id="imageSlider"></div>
+                    <button id="nextBtn">Next &gt;</button>
+                </div>
+            </div>
+        </article>
+    </main>
 
     <footer>&copy; 2023 MyGallery</footer>
 
